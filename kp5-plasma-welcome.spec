@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	5.27.2
+%define		kdeplasmaver	5.27.3
 %define		qtver		5.15.2
 %define		kpname		plasma-welcome
 %define		kf5ver		5.102.0
 
 Summary:	Plasma Welcome App
 Name:		kp5-%{kpname}
-Version:	5.27.2
+Version:	5.27.3
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	7a644d7b19055a994feb96fa0b977857
+# Source0-md5:	503ec6626e49efda25f0e99e7265ac8a
 URL:		https://kde.org/
 BuildRequires:	Qt5Core-devel >= 5.15.2
 BuildRequires:	Qt5Gui-devel >= 5.15.2
